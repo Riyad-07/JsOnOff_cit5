@@ -1,0 +1,60 @@
+.main{
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgba(24, 28, 31, 0.726);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px
+}
+.open{
+    display: none;
+}
+
+.onlight{
+    display: flex;
+    transform: scale(1.25);
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.on{
+    background-color: green;
+}
+
+.on1{
+    background-color: white;
+    color: green;
+}
+
+.off{
+    background-color: red;
+}
+
+.off1{
+    background-color: black;
+    color: red;
+}
+
+img{
+    height: 100px;
+}
+.on11{
+    height: 100px;
+}
